@@ -5,19 +5,31 @@ import Footer from '@components/Footer'
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      {/* <Head>
+      </Head> */}
+
+    {/* <div class="topnav">
+      <a class="active" href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>  */}
+
+      <Header title="Jemelka Gift and Family Video" />
+      <div id="Jemelka2022">
+          <iframe width="1167" height="656" src="https://www.youtube.com/embed/xW44WSdgLEo" 
+          title="Jemelka Gift and Family Video" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
+    
   )
+  
 }
+
